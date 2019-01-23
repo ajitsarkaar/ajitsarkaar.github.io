@@ -47,7 +47,8 @@ body {
 }
 
 tt {
-    background: #ffffdd;
+	color: #c7254e;
+    background: #F9F2F4;
 }
 
 pre, tt {

@@ -4,20 +4,21 @@
 
 === Introduction
 The projects for this class assume you use Python 2.7.15
+
 Project 0 will cover the following:
+- A mini-UNIX tutorial (particularly important if you work on instructional machines),
+- A mini-Python tutorial,
+- Project grading: Every project's release includes its autograder for you to run yourself.
 
-A mini-UNIX tutorial (particularly important if you work on instructional machines),
-A mini-Python tutorial,
-Project grading: Every project's release includes its autograder for you to run yourself.
-Files to Edit and Submit: You will fill in portions of addition.py, buyLotsOfFruit.py, and shopSmart.py in tutorial.zip during the assignment. You should submit these files with your code and comments. Please do not change the other files in this distribution or submit any of our original files other than these files.
+*Files to Edit and Submit:* You will fill in portions of %addition.py, buyLotsOfFruit.py, and shopSmart.py% in [tutorial.zip tutorial.zip] during the assignment. You should submit these files with your code and comments. Please do not change the other files in this distribution or submit any of our original files other than these files.
 
-Evaluation: Your code will be autograded for technical correctness. Please do not change the names of any provided functions or classes within the code, or you will wreak havoc on the autograder. However, the correctness of your implementation -- not the autograder's judgements -- will be the final judge of your score. If necessary, we will review and grade assignments individually to ensure that you receive due credit for your work.
+*Evaluation:* Your code will be autograded for technical correctness. Please do not change the names of any provided functions or classes within the code, or you will wreak havoc on the autograder. However, the correctness of your implementation -- not the autograder's judgements -- will be the final judge of your score. If necessary, we will review and grade assignments individually to ensure that you receive due credit for your work.
 
-Academic Dishonesty: We will be checking your code against other submissions in the class for logical redundancy. If you copy someone else's code and submit it with minor changes, we will know. These cheat detectors are quite hard to fool, so please don't try. We trust you all to submit your own work only; please don't let us down. If you do, we will pursue the strongest consequences available to us.
+*Academic Dishonesty:* We will be checking your code against other submissions in the class for logical redundancy. If you copy someone else's code and submit it with minor changes, we will know. These cheat detectors are quite hard to fool, so please don't try. We trust you all to submit your own work only; please don't let us down. If you do, we will pursue the strongest consequences available to us.
 
-Getting Help: You are not alone! If you find yourself stuck on something, contact the course staff for help. Office hours, section, and the discussion forum are there for your support; please use them. If you can't make our office hours, let us know and we will schedule more. We want these projects to be rewarding and instructional, not frustrating and demoralizing. But, we don't know when or how to help unless you ask.
+*Getting Help:* You are not alone! If you find yourself stuck on something, contact the course staff for help. Office hours, section, and the discussion forum are there for your support; please use them. If you can't make our office hours, let us know and we will schedule more. We want these projects to be rewarding and instructional, not frustrating and demoralizing. But, we don't know when or how to help unless you ask.
 
-Discussion: Please be careful not to post spoilers.
+*Discussion:* Please be careful not to post spoilers.
 
 
 === Unix Basics
@@ -28,13 +29,13 @@ When you open a terminal window, you're placed at a command prompt:
 
 %[cs188-ta@nova ~]$%
 
-The prompt shows your username, the host you are logged onto, and your current location in the directory structure (your path). The tilde character is shorthand for your home directory. Note your prompt may look slightly different. To make a directory, use the mkdir command. Use cd to change to that directory:
+The prompt shows your username, the host you are logged onto, and your current location in the directory structure (your path). The %~% (tilde) character is shorthand for your home directory. Note your prompt may look slightly different. To make a directory, use the %mkdir% command. Use %cd% to change to that directory:
 
 %[cs188-ta@nova ~]$ mkdir foo%
 %[cs188-ta@nova ~]$ cd foo%
 %[cs188-ta@nova ~/foo]$%
 
-Use ls to see a listing of the contents of a directory, and touch to create an empty file:
+Use %ls% to see a listing of the contents of a directory, and %touch% to create an empty file:
 
 %[cs188-ta@nova ~/foo]$ ls%\n
 %[cs188-ta@nova ~/foo]$ touch hello_world%\n
@@ -43,7 +44,7 @@ Use ls to see a listing of the contents of a directory, and touch to create an e
 %[cs188-ta@nova ~/foo]$ cd ..%\n
 %[cs188-ta@nova ~]$%\n
 
-Download python_basics.zip into your home directory (note: the zip file's name may be slightly different when you download it). Use unzip to extract the contents of the zip file:
+Download [python_basics.zip python_basics.zip] into your home directory (note: the zip file's name may be slightly different when you download it). Use %unzip% to extract the contents of the zip file:
 
 ~~~
 {}{}
@@ -75,7 +76,7 @@ Some other useful Unix commands:
 - %fg% brings a program running in the background to the foreground
 
 ==== The Emacs text editor
-Emacs is a customizable text editor which has some nice features specifically tailored for programmers. However, you can use any other text editor that you may prefer (such as atom, %vi%, %pico%, or %joe%).
+Emacs is a customizable text editor which has some nice features specifically tailored for programmers. However, you can use any other text editor that you may prefer (such as [https://atom.io/ atom], %vi%, %pico%, or %joe%).
 
 To run Emacs, type %emacs% at a command prompt:
 
@@ -96,11 +97,11 @@ You can also copy and paste using just the mouse. Using the left button, select 
 
 There are two ways you can use Emacs to develop Python code. The most straightforward way is to use it just as a text editor: create and edit Python files in Emacs; then run Python to test the code somewhere else, like in a terminal window. Alternatively, you can run Python inside Emacs: see the options under "Python" in the menubar, or type %C-c !% to start a Python interpreter in a split screen. (Use %C-x% o to switch between the split screens, or just click if %C-x% doesn't work).
 
-If you want to spend some extra setup time becoming a power user, you can try an IDE like Pycharm.
+If you want to spend some extra setup time becoming a power user, you can try an IDE like [https://www.jetbrains.com/pycharm/ Pycharm].
 
 === Python Basics
 Required Files
-You can download all of the files associated with the Python mini-tutorial as a zip archive: python_basics.zip. If you did the unix tutorial in the previous tab, you've already downloaded and unzipped this file.
+You can download all of the files associated with the Python mini-tutorial as a zip archive: [python_basics.zip python_basics.zip]. If you did the unix tutorial in the previous tab, you've already downloaded and unzipped this file.
 
 ==== Table of Contents
 - Invoking the Interpreter
@@ -124,7 +125,7 @@ You can download all of the files associated with the Python mini-tutorial as a 
 - Troubleshooting
 - More References
 
-The programming assignments in this course will be written in Python, an interpreted, object-oriented language that shares some features with both Java and Scheme. This tutorial will walk through the primary syntactic constructions in Python, using short examples.
+The programming assignments in this course will be written in Python, an interpreted, object-oriented language that shares some features with both Java and Scheme. This tutorial will walk through the primary syntactic constructions in [http://www.python.org/about/ Python], using short examples.
 
 We encourage you to type all python shown in the tutorial onto your own machine. Make sure it responds the same way.
 
@@ -146,7 +147,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 ~~~
 
 ==== Operators
-The Python interpreter can be used to evaluate expressions, for example simple arithmetic expressions. If you enter such expressions at the prompt (>>>) they will be evaluated and the result will be returned on the next line.
+The Python interpreter can be used to evaluate expressions, for example simple arithmetic expressions. If you enter such expressions at the prompt (%>>>%) they will be evaluated and the result will be returned on the next line.
 
 ~~~
 {}{}
@@ -217,17 +218,24 @@ Learn about the methods Python provides for strings. To see what methods Python 
 
 ~~~
 {}{}
->>> s = 'abc' 
+>>> s = 'abc'
 
 >>> dir(s)
-['__add__', '__class__', '__contains__', '__delattr__', '__doc__', '__eq__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getslice__', '__gt__', '__hash__', '__init__','__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__','__repr__', '__rmod__', '__rmul__', '__setattr__', '__str__', 'capitalize', 'center', 'count', 'decode', 'encode', 'endswith', 'expandtabs', 'find', 'index', 'isalnum', 'isalpha', 'isdigit', 'islower', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'replace', 'rfind','rindex', 'rjust', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+['__add__', '__class__', '__contains__', '__delattr__', '__doc__', '__eq__', '__ge__', '__getattribute__',
+'__getitem__', '__getnewargs__', '__getslice__', '__gt__', '__hash__', '__init__','__le__', '__len__', 
+'__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__','__repr__', '__rmod__', 
+'__rmul__', '__setattr__', '__str__', 'capitalize', 'center', 'count', 'decode', 'encode', 'endswith', 
+'expandtabs', 'find', 'index', 'isalnum', 'isalpha', 'isdigit', 'islower', 'isspace', 'istitle', 
+'isupper', 'join', 'ljust', 'lower', 'lstrip', 'replace', 'rfind','rindex', 'rjust', 'rsplit', 'rstrip', 
+'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
 
 >>> help(s.find)
 ~~~
 
-Help on built-in function find:
 ~~~
 {}{}
+Help on built-in function find:
+
 find(...)
     S.find(sub [,start [,end]]) -> int
 
@@ -259,7 +267,7 @@ Lists store a sequence of mutable items:
 'apple'
 ~~~
 
-We can use the + operator to do list concatenation:
+We can use the %+% operator to do list concatenation:
 
 ~~~
 {}{}
@@ -277,13 +285,13 @@ Python also allows negative-indexing from the back of the list. For instance, %f
 >>> fruits.pop()
 'banana'
 >>> fruits
-[\'apple', 'orange', 'pear']
+['apple', 'orange', 'pear']
 >>> fruits.append('grapefruit')
 >>> fruits
-[\'apple', 'orange', 'pear', 'grapefruit'] 
+['apple', 'orange', 'pear', 'grapefruit'] 
 >>> fruits[-1] = 'pineapple' 
 >>> fruits 
-[\'apple', 'orange', 'pear', 'pineapple']
+['apple', 'orange', 'pear', 'pineapple']
 ~~~
 
 We can also index multiple adjacent elements using the slice operator. For instance, %fruits[1:3]%, returns a list containing the elements at position 1 and 2. In general %fruits[start:stop]% will get the elements in start, %start+1, ..., stop-1%. We can also do %fruits[start:]% which returns all elements starting from the %start% index. Also %fruits[:end]% will return all elements before the element at position end:
@@ -291,7 +299,7 @@ We can also index multiple adjacent elements using the slice operator. For insta
 ~~~
 {}{}
 >>> fruits[0:2] 
-[\'apple', 'orange'] 
+['apple', 'orange'] 
 >>> fruits[:3]
 ['apple', 'orange', 'pear'] 
 >>> fruits[2:]
@@ -313,8 +321,8 @@ The items stored in lists can be any Python data type. So for instance we can ha
 [['a', 'b'],[1, 2, 3],['one', 'two', 'three']]
 ~~~
 
-===== Exercise: Lists
-Play with some of the list functions. You can find the methods you can call on an object via the dir and get information about them via the help command:
+==== Exercise: Lists
+Play with some of the list functions. You can find the methods you can call on an object via the %dir% and get information about them via the %help% command:
 
 ~~~
 {}{}
@@ -386,7 +394,7 @@ set(['circle','triangle'])
 set(['circle','square','triangle','polygon','hexagon'])
 ~~~
 
-Note that the objects in the set are unordered; you cannot assume that their traversal or print order will be the same across machines!
+*Note that the objects in the set are unordered; you cannot assume that their traversal or print order will be the same across machines!*
 
 ===== Dictionaries
 The last built-in data structure is the dictionary which stores a map from one type of object (the key) to another (the value). The key must be an immutable type (string, number, or tuple). The value can be any Python data type.
@@ -419,7 +427,7 @@ Note: In the example below, the printed order of the keys returned by Python cou
 
 As with nested lists, you can also create dictionaries of dictionaries.
 
-===== Exercise: Dictionaries
+==== Exercise: Dictionaries
 Use %dir% and %help% to learn about the functions you can call on dictionaries.
 
 ==== Writing Scripts
@@ -454,7 +462,7 @@ pears cost 1.750000 a pound
 apples are too expensive!
 ~~~
 
-Remember that the print statements listing the costs may be in a different order on your screen than in this tutorial; that's due to the fact that we're looping over dictionary keys, which are unordered. To learn more about control structures (e.g., %if% and %else%) in Python, check out the official Python tutorial section on this topic.
+Remember that the print statements listing the costs may be in a different order on your screen than in this tutorial; that's due to the fact that we're looping over dictionary keys, which are unordered. To learn more about control structures (e.g., %if% and %else%) in Python, check out the official [http://docs.python.org/tut/ Python tutorial section on this topic].
 
 If you like functional programming you might also like %map% and %filter%:
 
@@ -466,7 +474,7 @@ If you like functional programming you might also like %map% and %filter%:
 [4, 5, 4]\
 ~~~
 
-You can learn more about %lambda% if you're interested.
+You can [http://www.secnetix.de/olli/Python/lambda_functions.hawk learn more] about %lambda% if you're interested.
 
 The next snippet of code demonstrates Python's list comprehension construction:
 
@@ -489,10 +497,10 @@ This code is in a file called %listcomp.py%, which you can run:
 [2,4,6]
 ~~~
 
-===== Exercise: List Comprehensions
+==== Exercise: List Comprehensions
 Write a list comprehension which, from a list, generates a lowercased version of each string that has length greater than five. You can find the solution in %listcomp2.py%.
 
-===== Beware of Indendation!
+==== Beware of Indendation!
 Unlike many other languages, Python uses the indentation in the source code for interpretation. So for instance, for the following script:
 
 ~~~
@@ -523,9 +531,9 @@ there would be no output. The moral of the story: be careful how you indent! It'
 ==== Tabs vs Spaces
 Because Python uses indentation for code evaluation, it needs to keep track of the level of indentation across code blocks. This means that if your Python file switches from using tabs as indentation to spaces as indentation, the Python interpreter will not be able to resolve the ambiguity of the indentation level and throw an exception. Even though the code can be lined up visually in your text editor, Python "sees" a change in indentation and most likely will throw an exception (or rarely, produce unexpected behavior).
 
-This most commonly happens when opening up a Python file that uses an indentation scheme that is opposite from what your text editor uses (aka, your text editor uses spaces and the file uses tabs). When you write new lines in a code block, there will be a mix of tabs and spaces, even though the whitespace is aligned. For a longer discussion on tabs vs spaces, see this discussion on StackOverflow.
+This most commonly happens when opening up a Python file that uses an indentation scheme that is opposite from what your text editor uses (aka, your text editor uses spaces and the file uses tabs). When you write new lines in a code block, there will be a mix of tabs and spaces, even though the whitespace is aligned. For a longer discussion on tabs vs spaces, see [http://stackoverflow.com/questions/119562/tabs-versus-spaces-in-python-programming this] discussion on StackOverflow.
 
-===== Writing Functions
+==== Writing Functions
 As in Java, in Python you can define your own functions:
 
 ~~~
@@ -611,11 +619,11 @@ class FruitShop:
 
 The %FruitShop% class has some data, the name of the shop and the prices per pound of some fruit, and it provides functions, or methods, on this data. What advantage is there to wrapping this data in a class?
 
-Encapsulating the data prevents it from being altered or used inappropriately,
-The abstraction that objects provide make it easier to write general-purpose code.
+. Encapsulating the data prevents it from being altered or used inappropriately,
+. The abstraction that objects provide make it easier to write general-purpose code.
 
 ==== Using Objects
-So how do we make an object and use it? Make sure you have the %FruitShop% implementation in %%shop.py%. We then import the code from this file (making it accessible to other scripts) using %import shop%, since %shop.py% is the name of the file. Then, we can create %FruitShop% objects as follows:
+So how do we make an object and use it? Make sure you have the %FruitShop% implementation in %shop.py%. We then import the code from this file (making it accessible to other scripts) using %import shop%, since %shop.py% is the name of the file. Then, we can create %FruitShop% objects as follows:
 
 ~~~
 {}{}
@@ -651,7 +659,7 @@ Apples cost $4.50 at the Stanford Mall.
 My, that's expensive!
 ~~~
 
-So what just happended? The %import shop% statement told Python to load all of the functions and classes in %shop.py%. The line %berkeleyShop = shop.FruitShop(shopName, fruitPrices)% constructs an instance of the FruitShop class defined in shop.py, by calling the %__init__% function in that class. Note that we only passed two arguments in, while %__init__% seems to take three arguments: %(self, name, fruitPrices)%. The reason for this is that all methods in a class have %self% as the first argument. The %self% variable's value is automatically set to the object itself; when calling a method, you only supply the remaining arguments. The %self% variable contains all the data (%name% and %fruitPrices%) for the current specific instance (similar to this in Java). The print statements use the substitution operator (described in the Python docs if you're curious).
+So what just happened? The %import shop% statement told Python to load all of the functions and classes in %shop.py%. The line %berkeleyShop = shop.FruitShop(shopName, fruitPrices)% constructs an instance of the FruitShop class defined in shop.py, by calling the %__init__% function in that class. Note that we only passed two arguments in, while %__init__% seems to take three arguments: %(self, name, fruitPrices)%. The reason for this is that all methods in a class have %self% as the first argument. The %self% variable's value is automatically set to the object itself; when calling a method, you only supply the remaining arguments. The %self% variable contains all the data (%name% and %fruitPrices%) for the current specific instance (similar to this in Java). The print statements use the substitution operator (described in the [https://docs.python.org/2/library/stdtypes.html#string-formatting Python docs] if you're curious).
 
 ==== Static vs Instance Variables
 The following example illustrates how to use static and instance variables in Python.
@@ -702,14 +710,14 @@ In the code above, %age% is an instance variable and %population% is a static va
 ==== More Python Tips and Tricks
 This tutorial has briefly touched on some major aspects of Python that will be relevant to the course. Here are some more useful tidbits:
 
-Use %range% to generate a sequence of integers, useful for generating traditional indexed %for% loops:
+- Use %range% to generate a sequence of integers, useful for generating traditional indexed %for% loops:
 ~~~
 {}{}
 for index in range(3):
     print lst[index]
 ~~~
 
-After importing a file, if you edit a source file, the changes will not be immediately propagated in the interpreter. For this, use the reload command: 
+- After importing a file, if you edit a source file, the changes will not be immediately propagated in the interpreter. For this, use the reload command: 
 
 ~~~
 {}{}
@@ -719,36 +727,27 @@ After importing a file, if you edit a source file, the changes will not be immed
 ===== Troubleshooting
 These are some problems (and their solutions) that new Python learners commonly encounter.
 
-- Problem:
-ImportError: No module named py
-
-Solution:
+- *Problem:*
+ImportError: No module named py\n*Solution*:
 When using %import%, do not include the ".py" from the filename. 
 For example, you should say: %import shop% 
 NOT: %import shop.py%
 
-- Problem:
+- *Problem:*
 NameError: name 'MY VARIABLE' is not defined
-Even after importing you may see this.
-
-Solution:
+Even after importing you may see this.\n*Solution:*
 To access a member of a module, you have to type %MODULE NAME.MEMBER NAME,% where %MODULE NAME% is the name of the .py file, and MEMBER NAME is the name of the variable (or function) you are trying to access.
 
-- Problem:
-TypeError: 'dict' object is not callable
-
-Solution:
+- *Problem:*
+TypeError: 'dict' object is not callable\nSolution:
 Dictionary looks up are done using square brackets: [ and ]. NOT parenthesis: ( and ).
 
-- Problem:
-ValueError: too many values to unpack
-
-Solution:
-Make sure the number of variables you are assigning in a %for% loop matches the number of elements in each item of the list. Similarly for working with tuples.
-
-For example, if %pair% is a tuple of two elements (e.g. %pair =('apple', 2.0))% then the following code would cause the "too many values to unpack error":
+- *Problem:*
+ValueError: too many values to unpack\n*Solution:*
+Make sure the number of variables you are assigning in a %for% loop matches the number of elements in each item of the list. Similarly for working with tuples.\nFor example, if %pair% is a tuple of two elements (e.g. %pair =('apple', 2.0))% then the following code would cause the "too many values to unpack error":
 
 %(a,b,c) = pair%
+
 Here is a problematic scenario involving a for loop:
 
 ~~~
@@ -758,31 +757,24 @@ for fruit, price, color in pairList:
     print '%s fruit costs %f and is the color %s' % (fruit, price, color)
 ~~~
 
-- Problem:
-AttributeError: 'list' object has no attribute 'length' (or something similar)
-
-Solution:
+- *Problem:*
+AttributeError: 'list' object has no attribute 'length' (or something similar)\n*Solution:*
 Finding length of lists is done using %len(NAME OF LIST)%.
 
-- Problem:
-Changes to a file are not taking effect.
-
-Solution:
-
-Make sure you are saving all your files after any changes.
-If you are editing a file in a window different from the one you are using to execute python, make sure you reload(YOUR_MODULE) to guarantee your changes are being reflected. reload works similarly to import.
+- *Problem:*
+Changes to a file are not taking effect.\n*Solution:* Make sure you are saving all your files after any changes.\nIf you are editing a file in a window different from the one you are using to execute python, make sure you %reload(YOUR_MODULE)% to guarantee your changes are being reflected. %reload% works similarly to %import%.
 
 ==== More References
-The place to go for more Python information: www.python.org
-A good reference book: Learning Python (From the UCB campus, you can read the whole book online)
+- The place to go for more Python information: [http://www.python.org/ www.python.org]
+- A good reference book: [http://oreilly.com/catalog/9780596513986/ Learning Python] (From the UCB campus, you can read the whole book online)
 
 === Autograder
 To get you familiarized with the autograder, we will ask you to code, test, and submit solutions for three questions.
-You can download all of the files associated the autograder tutorial as a zip archive: tutorial.zip (note this is /different/ from the zip file used in the UNIX and Python mini-tutorials, python_basics.zip). Unzip this file and examine its contents:
+You can download all of the files associated the autograder tutorial as a zip archive: [tutorial.zip tutorial.zip] (note this is /different/ from the zip file used in the UNIX and Python mini-tutorials, [python_basics.zip python_basics.zip]). Unzip this file and examine its contents:
 
 ~~~
 {}{}
-[cs188-ta@nova ~]$ unzip tutorial.zip
+[cs188-ta@nova ~]$ unzip [tutorial.zip tutorial.zip]
 [cs188-ta@nova ~]$ cd tutorial
 [cs188-ta@nova ~/tutorial]$ ls
 addition.py
@@ -984,7 +976,7 @@ Run python autograder.py until question 2 passes all tests and you get full mark
 Cost of \[('apples', 2.0), ('pears', 3.0), ('limes', 4.0)\] is 12.25
 
 == Question 3: shopSmart function
-Fill in the function %shopSmart(orders,shops)% in %shopSmart.py%, which takes an orderList (like the kind passed in to F%ruitShop.getPriceOfOrder)% and a list of %FruitShop% and returns the %FruitShop% where your order costs the least amount in total. Don't change the file name or variable names, please. Note that we will provide the %shop.py% implementation as a "support" file, so you don't need to submit yours.
+Fill in the function %shopSmart(orders,shops)% in %shopSmart.py%, which takes an orderList (like the kind passed in to %FruitShop.getPriceOfOrder)% and a list of %FruitShop% and returns the %FruitShop% where your order costs the least amount in total. Don't change the file name or variable names, please. Note that we will provide the %shop.py% implementation as a "support" file, so you don't need to submit yours.
 
 Run %python autograder.py% until question 3 passes all tests and you get full marks. Each test will confirm that %shopSmart(orders,shops)% returns the correct answer given various possible inputs. For example, with the following variable definitions:
 
@@ -1010,5 +1002,5 @@ and %test_cases\/q3\/select_shop2.test% tests whether:
 == Submission
 You're not done yet! Follow the submission instructions on Canvas to receive credit on your project!
 
-/Note: this page is a slightly modified version of the Berkeley CS188 Pacman homework assignments used for Virginia Tech's ECE4524. If you are looking for the original version, which the team at Berkeley do a great job keeping up to date, see http:\/\/ai.berkeley.edu\/project_overview\.html./
+\n\n/Note: this page is a slightly modified version of the Berkeley CS188 Pacman homework assignments used for Virginia Tech's ECE4524. If you are looking for the original version, which the team at Berkeley do a great job keeping up to date, see [http://ai.berkeley.edu/project_overview.html]/
 
