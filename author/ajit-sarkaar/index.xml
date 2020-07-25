@@ -5,20 +5,12 @@
     <link>https://ajitsarkaar.github.io/author/ajit-sarkaar/</link>
       <atom:link href="https://ajitsarkaar.github.io/author/ajit-sarkaar/index.xml" rel="self" type="application/rss+xml" />
     <description>Ajit Sarkaar</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 18 Jul 2020 17:09:13 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>https://ajitsarkaar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Ajit Sarkaar</title>
       <link>https://ajitsarkaar.github.io/author/ajit-sarkaar/</link>
     </image>
-    
-    <item>
-      <title>FaceNet: Learning an embedding for facial recognition, verification and clustering</title>
-      <link>https://ajitsarkaar.github.io/project/facenet/</link>
-      <pubDate>Sat, 18 Jul 2020 17:09:13 -0400</pubDate>
-      <guid>https://ajitsarkaar.github.io/project/facenet/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
